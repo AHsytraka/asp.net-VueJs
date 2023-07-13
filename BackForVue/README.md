@@ -1,7 +1,7 @@
 ## ASP.NET Core Project Setup
 
 ### Change the connection string in appsettings.json to match your database informations
-### Note that I didn't make the migration run automatically because this is a small project :)
+#### I didn't make the migration run automatically because this is a small project :)
 
 ### Install all dependecies
 
@@ -11,7 +11,7 @@ dotnet restore
 
 ### Run migration (if there is no migration folder)
 ```sh
-dotnet ef migrations "string"
+dotnet ef migrations add "string"
 ```
 ### Update database
 ```sh
