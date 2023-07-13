@@ -1,6 +1,6 @@
 ## ASP.NET Core Project Setup
 
-### Change the connection string in appsettings.json to match your database informations
+#### Change the connection string in appsettings.json to match your database informations
 #### I didn't make the migration run automatically because this is a small project :)
 
 ### Install all dependecies
